@@ -20,7 +20,7 @@ public class App extends Application {
         // String javafxVersion = System.getProperty("javafx.version");
         // Label l = new Label("Hello, JavaFX " + javafxVersion + ", running on Java " + javaVersion + ".");
         // Scene scene = new Scene(new StackPane(l), 640, 480);
-        URL xmlResource = getClass().getResource("/ui/calcbuttons2.xml");
+        URL xmlResource = getClass().getResource("/ui/calc-monolithic.xml");
         GridPane gp = FXMLLoader.load(xmlResource);
         Scene scene = new Scene(gp, 640, 480);
         URL cssResource = getClass().getResource("/ui/calcbuttons.css");
